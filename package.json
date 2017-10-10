@@ -1,0 +1,22 @@
+{
+  "name": "others",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parallel.js",
+  "scripts": {
+    "build": "rimraf dist/** && gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && http-server ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsx": "^2.0.1",
+    "http-server": "^0.10.0",
+    "merge-stream": "^1.0.1",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {}
+}
